@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calorie Trac</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type = "text/css" href="style.css">
+    
+
+    
+
+</head>
+
+<body>
+<!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #ffc926; opacity: 0.9;">
+      <div class ="container">
+          <a class="navbar-brand" href="#">
+              <img src="/img/icon1.png" width="40" height="40" class="d-inline-block align-top" alt="">
+              Calorie Trac
+            </a>
+            <ul class="navbar-nav float-right">
+                <li class="nav-item active">
+                  <a class="nav-link  current" href="#start-tracking">Start Tracking</a>
+                </li>
+            </ul>
+      </div>
+    </nav>
+<!-- navbar end -->
+
+   
+      <div class= "uid" >
+         <h1 id="titleText">Calorie Trac</h1>
+          <p class="moto">Tracking Calories Made Easy.</p>
+          <br>
+         
+         <a href="#step-one" class="buttonDown"  ><img src="img/arrowndown1.png"></a>
+       </div>
+        
+
+<div id="step-one"class="container newCont" >
+  <br>
+  <br>
+  <br>
+
+  <div class="row flex-row-reverse">
+      <div class="col-md-4 col-sm-12 newContText">
+          <h1 id="servicecOne" class="service">step one.</h1>
+          <h3 class="serviceOne">Search all the foods you've eaten for the day. Adjust the serving size if needed and add it to the list.</h3>
+      </div>
+<div class="col-md-8 col-sm-12">
+<img class="gifImg" img-fluid w-100 d-block src ="/img/ezgif.com-video-to-gif.gif">
+</div>
+
+</div>
+
+</div>
+<a href="#step-two" class="buttonDownOne"  ><img src="img/arrowndown1.png"></a>
+
+
+<div id="step-two" class="container newContTwo" >
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="row ">
+<div class="col-md-4 col-sm-12 newContentTwo">
+    <h1 class="service">step two.</h1>
+    <h3 class="serviceOne">Click the total calories button to see the total number of calories you've consumed. Delete anything you may have mistakeingly added and click the button to update the number.</h3>
+</div>
+<div class="col-md-8 col-sm-12 blockOne">
+    <img class="gifImg" img-fluid w-100 d-block src ="/img/gifList.gif">
+    
+</div>
+
+</div>
+
+</div>
+<div class="navColorChangePoint"></div>
+<div class="stepTwoButton">
+<a href="#start-tracking" class="buttonDownTwo"  ><img src="img/arrowndown1.png"></a>
+</div>
+
+
+
+<div class="container">
+  <div id="start-tracking"></div>
+    <br><br><br>
+
+<div id="searchStart">
+
+  <br>
+<div class = "container">
+  <div class="row">
+    <div id= "header-left"class="col-md-6">
+      <h1 class="bodyTitle">Search Foods</h1>
+      <div class="input-group mb-3">
+        <input type="text" id="myIn" class="form-control"placeholder="Search foods.." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+         <div class="input-group-append">
+            <button id ="btn" class = "btn btn-outline-dark">Search</button>
+         </div>
+        </div>
+     
+        
+        <br>
+        <div >
+         <div id ="info"></div></div>
+    </div>
+   <br> 
+    <div id ="header-right" class="col-md-6">
+      <h3 class="bodyTitle" id = "headerRight">My Daily Calorie Count</h3>
+       <p id="emptyListText">(List is currently empty)</p>
+        <div   id="calculations"></div>
+        <div class= "wrap">
+          <div id="lorem"></div>
+           
+            <button id="totalSumBtn" class = "btn btn-warning">Total Calories</button>
+              <div id="total"></div>
+            </div>
+      </div>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<script src = "https://chancejs.com/chance.min.js"></script>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="nutrition.js"></script>  
+
+</body>
+<footer>
+     <div class="footer">
+      <p class="signature">by hussein mohamed</p>
+      <p class="rights">Powered by <a href="https://www.nutritionix.com/business/api">Nutritionix API</a></p>
+     </div>
+
+</footer>
+</html>
